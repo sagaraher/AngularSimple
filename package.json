@@ -9,7 +9,7 @@
     "test": "ng test",
     "dev": "lite-server --baseDir=\"dist/AngularSimple\"",
     "source-map-explorer": "source-map-explorer dist/AngularSimple/**/*.js",
-    "deploy":"ng deploy --base-href=/AngularSimple/ --name=Sagar Aher --email=aher.sagar0@gmail.com --no-silent"
+    "deploy":"ng deploy --base-href=/AngularSimple/ --name=SagarAher --email=aher.sagar0@gmail.com --no-silent"
   },
   "private": true,
   "dependencies": {
