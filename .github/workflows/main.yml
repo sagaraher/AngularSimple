@@ -31,4 +31,4 @@ jobs:
           npm cache clean --force
           npm i
           npm run build
-          ng deploy --repo=https://github.com/sagaraher/AngularSimple.git --name="Sagar Aher" --email=aher.sagar0@gmail.com --no-silent
+          npm run ng deploy --repo=https://github.com/sagaraher/AngularSimple.git --name="Sagar Aher" --email=aher.sagar0@gmail.com --no-silent
