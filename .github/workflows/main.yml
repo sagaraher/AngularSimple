@@ -1,4 +1,7 @@
-on: push 
+on:  
+  push:
+    branches:
+      - master
 name: Build Angular
 jobs:
   build:
@@ -25,8 +28,4 @@ jobs:
         run: |
           npm i
           npm run build
-      - name: Push Build to Releases
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: "dist/AngularSimple/*"
-          token: ${{ secrets.TOKEN }} view raw main.yml Angular -Github Actions hosted with ❤ by GitHub
+          npm run deploy      
