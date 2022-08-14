@@ -29,5 +29,4 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "dist/AngularSimple/*"
-          token: ${{ secrets.TOKEN }}
-view rawmain.yml Angular -Github Actions hosted with ❤ by GitHub
+          token: ${{ secrets.TOKEN }} view raw main.yml Angular -Github Actions hosted with ❤ by GitHub
